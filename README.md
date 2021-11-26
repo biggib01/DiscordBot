@@ -9,6 +9,10 @@ update 11/26/2021
 
 -need to change config"-" command to slash commands
 
+UPDATED
+
+-use npm run dev for run nodemon bot.js
+
 Research references
 
 \/\/\/\/\/\/\/\/
