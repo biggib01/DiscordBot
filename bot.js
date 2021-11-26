@@ -13,12 +13,15 @@ bot.on('ready', () => {
 });
 
 bot.on("message", msg => {
-    if(msg.author.bot) return
-  
-    if(msg.content === "ping"){
-      msg.reply("poggers")
-    }
-  })
+  if(msg.author.bot) return
+
+  if(msg.content === "ping"){
+    msg.reply("poggers")
+  }else if(msg.content === "สวัสดี" || msg.content === "ดี" || msg.content === "yo"){
+    msg.reply("สวัสดี")
+  }
+
+});
 
 bot.on('message', async message => {
     // Check for command
