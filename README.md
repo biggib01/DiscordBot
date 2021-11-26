@@ -9,8 +9,6 @@ update 11/26/2021
 
 -need to change config"-" command to slash commands
 
--nodemon can't use, but node [file name] work just fine
-
 Research references
 
 \/\/\/\/\/\/\/\/
